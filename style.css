@@ -1,0 +1,105 @@
+body { 
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ h1 {
+     margin-block-start:0,65mm;
+     margin-block-end: 0,65mm;
+     display: block;
+     margin: 0%;
+     margin-block-start: 0%;
+     margin-inline-end: 0%;
+     font-weight: bold;
+
+ }
+    
+ #logo {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+
+
+ }
+ #banner {
+    width: 1280px;
+    
+ }
+ header {
+    background: orange;
+    color: whitesmoke
+
+ }
+ #main-nav {
+     color: whitesmoke;
+    margin: 20px;
+    margin-top: auto;
+   background: khaki
+   
+}
+.lista-1 {
+    background: lavender;
+    padding: 10px;
+    width: 620px;
+    margin-bottom: 20px;
+    margin: top 20px; 
+    display: inline-block;
+}
+.lista-2{
+    background: lavender;
+    padding: 10px;
+    width: 620px;
+    margin-bottom: 20px;
+    margin: top 20px; 
+    display: inline-block;
+    top: 824px;
+    left: 650px;
+}
+ 
+
+
+
+
+footer {
+    background: khaki;
+}
+
+ h1 {
+     text-align: center;
+
+
+
+
+ 
+ }
+ #perfil {
+    width: 200px;
+    float: left;
+}
+#logo2 {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+
+}
+
+#logo3 {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+}
+
+ .food {
+     width: 300px;
+ }
+ .food2 {
+       width: 300px;
+ }
+ .food3 {
+     width: 300px;
+ }
+
+ 
