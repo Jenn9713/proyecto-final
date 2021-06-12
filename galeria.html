@@ -10,51 +10,43 @@
   </head>
 <body>
     <header>
-        <img class="logo" src="logo.jpg" alt="Logo">
+        <img id="logo3" src="image/logo.jpg"alt="Logo">
         <h1>Introducción al Desarrollo Web</h1>
-        <h2>Galeria</h2>
         <nav id="main-nav">
                <a href="index.html">Inicio</a>
                <a href="biografia.html">Biografia</a>
                 <a href="galeria.html">Galeria</a>
-        </nav>
-     <nav id="sidebar">
-         <button id="Paseos.html" onclick="showCategory"(Paseos)></button>
-         <button id="Hobbies.html" onclick="showCategory"(Hobbies)></button>
-         <button id="Comida.html" onclick="showCategory"(Comida)></button>
+ <main>  
+    <section>             
+         <h2>Galeria</h2>
+         <nav id="sidebar">
+             <button id="hobbies-btn"onclick="showCategory('hobbies')">Hobbies</button>
+               <button id="paseos-btn"onclick="showCategory('paseos')">Paseos</button>
+               <button id="comida-btn"onclick="showCategory('comida')">Comida</button>
 
-     </nav>
-    <div id="galeria">
-            <div class="category"id="Paseos"></div>
+          </nav>
+     <div id="galeria">
+            <div class="category"id="paseos">
+                <div class="img-card"><img src="image/hobbies/hobbie1.JPG"alt="hobbie1"></div>
+                <div class="img-card"><img src="image/hobbies/hobbie2.jpg"alt="hobbie2"></div>
+                <div class="img-card"><img src="image/hobbies/hobbie3.JPG"alt="hobbie3"></div>
 
-                 
-
-            <div class="category"id="Hobbies"></div>
-            
-            <div class="category"id=Comida></div>
-                <img class="food" src="comida/food1.JPG" alt="food1">
-                <img class="food2" src="comida/food2.jpg" alt="food2">
-                <img class="food3" src="comida/food3.JPG" alt="food3">
-            
-
-         
-
-     </nav>
-        <div class="Paseos">
-
+            </div>
+            <div class="category"id=hobbies>
+                <div class="img-card"><img src="image/paseos/paseo1.jpg"alt="paseo1"><div>
+                <div class="img-card"><img src="image/paseos/paseo2.JPG"alt="paseo2"><div>
+                <div class="img-card"><img src="image/paseos/paseo3.jpg"alt="paseo3"><div>
+            </div>
+            <div class="category"id=comida>
+                <div class="img-card"><img src="image/comida/food1.JPG"alt="food1"><div>
+                <div class="img-card"><img src="image/comida/food2.jpg"alt="food2"><div>
+                <div class="img-card"><img src="image/comida/food3.JPG"alt="food3"><div>
+            </div>
         </div>
-        
-
-        
-
-        </nav>
-
-
- 
-
-    
-
-        <footer>
+     </section>           
+    </main>
+       
+    <footer>
             <small>&#169; 2021 Hecho por Jenny Chaves</small>
               <nav class="social-med">
                  <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
@@ -62,7 +54,7 @@
                  <a href="https://cr.linkedin.com/"><i class="fab fa-linkedin"></i></a>
                  <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
              </nav>  
-      </footer>
+    </footer>
       <script src="script.jps"></script>
         
    </header>

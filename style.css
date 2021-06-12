@@ -45,6 +45,7 @@ body {
     margin-bottom: 20px;
     margin: top 20px; 
     display: inline-block;
+    display:flex
 }
 .lista-2{
     background: lavender;
@@ -58,9 +59,6 @@ body {
 }
  
 
-
-
-
 footer {
     background: khaki;
 }
@@ -69,9 +67,6 @@ footer {
      text-align: center;
 
 
-
-
- 
  }
  #perfil {
     width: 200px;
@@ -101,5 +96,34 @@ footer {
  .food3 {
      width: 300px;
  }
-
+ #paseo1 {
+     width: 300px;
+ }
+ #paseo2 {
+     width: 300px;
+ }
+ #paseo3 {
+     width: 300px;
+ }
+ #hobbie1 {
+     width: 300px;
+ }
+ #hobbie2{
+     width: 300px;
+ }
+ #hobbie3 {
+     width: 300px;
+ }
+ #food1 {
+     width: 300px;
+ }
+ #food2 {
+     width: 300px;
+ }
+ .food3 {
+     width: 300px;
+ }
+ #comida {
+     width: 300px;
+ }
  

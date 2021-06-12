@@ -2,11 +2,11 @@ function toggleBloque() {
     var readMoreContentElement = document.getElementById("read-more-content");
     var readMoreButton = document.getElementById("readMore");
     if (readMoreContentElement.style.display === "block") {
-        readMoreContentElement.style.display = "none";
-        readMoreButton.textContent = "Leer más...";
+   readMoreContentElement.style.display = "none";
+  readMoreButton.textContent = "Leer más...";
 } else {
-         readMoreContentElement.style.display = "block";
-         readMoreButton.textContent = "Leer menos...";
+    readMoreContentElement.style.display = "block";
+    readMoreButton.textContent = "Leer menos...";
 
 }
 
@@ -25,7 +25,7 @@ function toggleBloque() {
   switch (type) {}
    hobbiesElement.style.display = "none";
    comidaElement.style.display = "none";
-    paseosElement.style.display = "block";
+   paseosElement.style.display = "block";
    
 
 
