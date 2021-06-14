@@ -2,7 +2,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: beige;
+    background:whitesmoke;
     }
  h1 {
      margin-block-start:0,65mm;
@@ -13,15 +13,14 @@ body {
      margin-inline-end: 0%;
      font-weight: bold;
  }
- .listcontainer .learn {
-    width: 50px;
-    background: rgb(240, 255, 254);
-    margin: 5px;
+ main {
+     background: khaki;
  }
- .listcontainer.do {
-     width: 50px;
-     background: fuchsia;
-     margin: 5px;
+
+ .checklist {
+     background: azure;
+     display: inline-block;
+     
  }
     
  #logo {
@@ -53,24 +52,8 @@ body {
     margin: 5px;
     background: darkturquoise;
 }
-.done {
-    height: 300px;
-    width: 600px;
-    float: left;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    background: lemonchiffon;
-}
-.undone {
-    height: 300px;
-    width: 300px;
-    padding: 10px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    background: lemonchiffon;
-}
+
+
 ul{
     display: inline-block;
     padding: 10px;
@@ -79,25 +62,50 @@ ul{
 .checklist li {
     position: relative;
     top: -4px;
-    color: lightblue;
+    color: rgb(8, 3, 2);
     font-size: 14px;
     margin: 15px 0;
+    
 }
 
 footer {
-    background:darksalmon
+    background:orange;
+    
 }
 nav {
     text-align: left;
-    background: darksalmon
+    background: orange
 }
 
  h1 {
      text-align: center;
- 
+
+ /*fin index */
+
 
  }
  #perfil {
     width: 200px;
     float: left;
+}
+#logo2 {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+}
+
+/*fin biografria */
+
+#logo3 {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+}
+#sidebar{
+   background: whitesmoke;
+}
+.img.card {
+    width: 300px;
 }
