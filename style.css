@@ -2,6 +2,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: beige;
     }
  h1 {
      margin-block-start:0,65mm;
@@ -11,7 +12,16 @@ body {
      margin-block-start: 0%;
      margin-inline-end: 0%;
      font-weight: bold;
-
+ }
+ .listcontainer .learn {
+    width: 50px;
+    background: rgb(240, 255, 254);
+    margin: 5px;
+ }
+ .listcontainer.do {
+     width: 50px;
+     background: fuchsia;
+     margin: 5px;
  }
     
  #logo {
@@ -38,92 +48,56 @@ body {
    background: khaki
    
 }
-.lista-1 {
-    background: lavender;
-    padding: 10px;
-    width: 620px;
-    margin-bottom: 20px;
-    margin: top 20px; 
-    display: inline-block;
-    display:flex
+.learn{
+    width: 50px;
+    margin: 5px;
+    background: darkturquoise;
 }
-.lista-2{
-    background: lavender;
+.done {
+    height: 300px;
+    width: 600px;
+    float: left;
     padding: 10px;
-    width: 620px;
-    margin-bottom: 20px;
-    margin: top 20px; 
-    display: inline-block;
-    top: 824px;
-    left: 650px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    background: lemonchiffon;
 }
- 
+.undone {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: lemonchiffon;
+}
+ul{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+}
+.checklist li {
+    position: relative;
+    top: -4px;
+    color: lightblue;
+    font-size: 14px;
+    margin: 15px 0;
+}
 
 footer {
-    background: khaki;
+    background:darksalmon
+}
+nav {
+    text-align: left;
+    background: darksalmon
 }
 
  h1 {
      text-align: center;
-
+ 
 
  }
  #perfil {
     width: 200px;
     float: left;
 }
-#logo2 {
-    display: inline;
-    margin-right: 10px;
-    border-radius: 12px;
-    max-width: 300px;
-
-}
-
-#logo3 {
-    display: inline;
-    margin-right: 10px;
-    border-radius: 12px;
-    max-width: 300px;
-}
-
- .food {
-     width: 300px;
- }
- .food2 {
-       width: 300px;
- }
- .food3 {
-     width: 300px;
- }
- #paseo1 {
-     width: 300px;
- }
- #paseo2 {
-     width: 300px;
- }
- #paseo3 {
-     width: 300px;
- }
- #hobbie1 {
-     width: 300px;
- }
- #hobbie2{
-     width: 300px;
- }
- #hobbie3 {
-     width: 300px;
- }
- #food1 {
-     width: 300px;
- }
- #food2 {
-     width: 300px;
- }
- .food3 {
-     width: 300px;
- }
- #comida {
-     width: 300px;
- }
- 

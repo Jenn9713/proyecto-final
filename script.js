@@ -1,19 +1,20 @@
-function toggleBloque() {
-    var readMoreContentElement = document.getElementById("read-more-content");
-    var readMoreButton = document.getElementById("readMore");
-    if (readMoreContentElement.style.display === "block") {
-   readMoreContentElement.style.display = "none";
-  readMoreButton.textContent = "Leer más...";
-} else {
-    readMoreContentElement.style.display = "block";
-    readMoreButton.textContent = "Leer menos...";
+function toggleRead() {
+    var readMoreContent = document.getElementById("read-more-content");
+    var readMoreContent = document.getElementById("readMore");
+    if (readMoreContent.style.display === "block") {
+        readMoreContent.style.display = "none"
+        readMoreButton.textContent = "Leer más..."
+    }  else {
+        readMoreContent.style.display = "block"
+        readMoreButton.textContent = "Leer menos..."
+    }
 
 }
 
   
 
 
-}
+
  function showCategory(type) {
   var paseosElement = document.getElementById("paseos");
   var hobbiesElement = document.getElementById("hobbies");
