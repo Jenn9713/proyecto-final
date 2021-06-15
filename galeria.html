@@ -12,39 +12,40 @@
     <header>
         <img id="logo3" src="image/logo.jpg"alt="Logo">
         <h1>Introducción al Desarrollo Web</h1>
-        <nav id="main-nav">
-               <a href="index.html">Inicio</a>
-               <a href="biografia.html">Biografia</a>
-                <a href="galeria.html">Galeria</a>
-    </header>             
-<main>  
- <section>             
-         <h2>Galeria</h2>
-         <nav id="sidebar">
-               <button id="hobbies-btn" onclick = "showCategory('hobbies')">Hobbies</button>
-               <button id="paseos-btn" onclick = "showCategory('paseos')">Paseos</button>
-               <button id="comida-btn" onclick = "showCategory('comida')">Comida</button>
+         <nav id="main-nav">
+            <a class="boton" href="index.html">Inicio |</a>
+            <a class="boton" href="biografia.html">Biografia |</a>
+            <a class="boton" href="galeria.html">Galeria |</a>
          </nav>
-       <div id="galeria">
-         <div class="category"id="paseos">
-                  <div class="img-card"><img src="image/hobbies/hobbie1.PNG"alt="hobbie1"></div>
-                  <div class="img-card"><img src="image/hobbies/hobbie2.PNG"alt="hobbie2"></div>
-                 <div class="img-card"><img src="image/hobbies/hobbie3.PNG"alt="hobbie3"></div>
-         </div>
-          <div class="category"id=hobbies>
-                 <div class="img-card"><img src="image/paseos/paseo1.PNG"alt="paseo1"><div>
-                 <div class="img-card"><img src="image/paseos/paseo2.PNG"alt="paseo2"><div>
-                 <div class="img-card"><img src="image/paseos/paseo3.PNG"alt="paseo3"><div>
+    </header>             
+  <main>
+      <section>
+          <h2>Galería</h2>
+          <nav id="botones">
+            <button id="hobbies-btn"onclick="mostrarCategoría('hobbies')">Hobbies</button>
+            <button id="comida-btn"onclick="mostrarCategoria('comida')">Mascotas</button>
+            <button id="paseos-btn"onclick="mostrarCategoria('paseos')">Paseos</button>
+          </nav>
+          <div class="gallery">
+            <div class="category"id="hobbies">
+             <div class="img-card"><img src="image/Hobbies/hobbie1.PNG" alt="hobbie1"></div>
+             <div class="img-card"><img src="image/Hobbies/hobbie2.PNG" alt="hobbie2"></div>
+             <div class="img-card"><img src="image/Hobbies/hobbie3.PNG" alt="hobbie3"></div> 
+            </div>
+            <div class="category"id="comida">
+              <div class="img-card"><img src="image/Comida/food1.JPG" alt="food1"></div>
+              <div class="img-card"><img src="image/Comida/food2.jpg" alt="food2"></div>
+              <div class="img-card"><img src="image/Comida/food3.JPG" alt="food3"></div>
+            </div>
+            <div class="category"id="paseos">
+              <div class="img-card"><img src="image/Paseos/paseo1.PNG" alt="paseo1"></div>
+              <div class="ima-card"><img src="image/paseos/paseo2.jpg" alt="paseo2"></div>
+              <div class="img-card"> <img src="image/Paseos/paseo3.PNG" alt="paseo3"></div>
+
+            </div>
           </div>
-          <div class="category"id=comida>
-                 <div class="img-card"><img src="image/comida/food1.JPG"alt="food1"><div>
-                 <div class="img-card"><img src="image/comida/food2.jpg"alt="food2"><div>
-                 <div class="img-card"><img src="image/comida/food3.JPG"alt="food3"><div>
-          </div>
-      </div>
- </section>            
-</main>
-       
+      </section>  
+   </main>
     <footer>
             <small>&#169; 2021 Hecho por Jenny Chaves</small>
               <nav class="social-med">
@@ -53,7 +54,7 @@
                  <a href="https://cr.linkedin.com/"><i class="fab fa-linkedin"></i></a>
                  <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
              </nav>  
-    </footer>
+     </footer>
       <script src="script.js"></script>
         
 </body>

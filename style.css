@@ -1,7 +1,6 @@
 body { 
     max-width: 1280px;
     margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background:whitesmoke;
     }
  h1 {
@@ -20,6 +19,7 @@ body {
  .checklist {
      background: azure;
      display: inline-block;
+     font-family: cursive;
      
  }
     
@@ -31,13 +31,19 @@ body {
 
 
  }
+p {
+    font-family: -webkit-pictograph;
+}
+
  #banner {
     width: 1280px;
     
  }
  header {
     background: orange;
-    color: whitesmoke
+    color: whitesmoke;
+    font-family: serif;
+    
 
  }
  #main-nav {
@@ -94,6 +100,9 @@ nav {
     border-radius: 12px;
     max-width: 300px;
 }
+button {
+    color: brown;
+}
 
 /*fin biografria */
 
@@ -107,5 +116,11 @@ nav {
    background: whitesmoke;
 }
 .img.card {
+    width: 300px;
+}
+.botton {
+    background-color: chocolate;
+}
+·comida {
     width: 300px;
 }
